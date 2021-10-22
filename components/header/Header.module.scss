@@ -1,9 +1,9 @@
 //HEADER
 .header {
-    padding: 1rem;
     background-color: var(--color-white) ;
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
     
     & > h1 { font-weight: 900; } //info
     &_menu {

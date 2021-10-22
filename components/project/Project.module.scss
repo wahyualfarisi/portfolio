@@ -79,3 +79,20 @@
         }
     }
 }
+
+.btn {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    outline: none;
+    border: none;
+    border-radius: .2rem;
+    padding: .4rem 1rem;
+    cursor: pointer;
+    
+    &:hover {
+        box-shadow: .6rem .6rem 1rem rgba(0,0,0,.2);
+    }
+    &:not(:last-child){
+        margin-right: .9rem;
+    }
+}
