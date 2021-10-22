@@ -1,3 +1,5 @@
+@import './../../styles/variable';
+
 //HEADER
 .header {
     background-color: var(--color-white) ;
@@ -5,7 +7,22 @@
     justify-content: space-between;
     padding: 1rem;
     
-    & > h1 { font-weight: 900; } //info
+    & > h1 { 
+      font-weight: 700; 
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      font-style: italic;
+      display: inline-block;
+      word-break: break-word;
+      white-space: normal;
+      transform: rotate(-5deg);
+      padding: .1rem 1.7rem;
+
+      @media screen and (max-width: $bp-tiny){
+        padding: .1rem 1rem;
+        font-size: .5rem;
+      }
+    } //info
     &_menu {
       &_lists {
         list-style-type: none;
@@ -13,13 +30,17 @@
         &_item {
           &:not(:last-child){
             margin-right: 2rem;
+
           }
   
           & > a {
             font-size: 1rem;
             text-decoration: none;
             color: var(--color-text-dark);
-            font-weight: 300;
+            font-weight: 500;
+            @media screen and (max-width: $bp-small){
+              font-size: .7rem;
+            }
           }
   
         }

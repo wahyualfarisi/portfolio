@@ -1,3 +1,5 @@
+@import './../../styles/variable';
+
 //HERO PRIMARY
 .hero_container {
     //bgColor
@@ -13,9 +15,11 @@
       height: 4%;
       background: linear-gradient(
         to top,
-        rgba(68, 204, 255, 0) 0%,
+        rgba(255, 255, 255, 0) 0%,
         hsl(0, 0%, 100%) 100%
-      );
+     );
+
+     
     }
   
     &_shadow_bottom {
@@ -27,9 +31,9 @@
       height: 40%;
       background: linear-gradient(
         to bottom,
-        rgba(68, 204, 255, 0) 0%,
+        rgba(255, 255, 255, 0) 0%,
         hsl(0, 0%, 100%) 100%
-      );
+     );
     }
 }
   
@@ -41,15 +45,32 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+
+    @media screen and (max-width: $bp-middle){
+      padding: 0;
+    }
     
+    @media screen and (max-width: $bp-large){
+      width: 100%;
+    }
     
     &_img_container {
       position: relative;
       margin-right: 3rem;
+      align-self: end;
+      background-color: inherit;
+
+      @media screen and (max-width: $bp-verysmall){
+        margin: 0;
+      }
       &_item {
         width: 100%;
         border-radius: 50%;
         display: block;
+
+        @media screen and (max-width: $bp-middle){
+          border-radius: 0%;
+        }
       }
       &_shadow {
         position: absolute;
@@ -60,9 +81,9 @@
         height: 30%;
         background: linear-gradient(
         to bottom,
-        rgba(68, 204, 255, 0) 0%,
+        rgba(255, 255, 255, 0) 0%,
         hsl(0, 0%, 100%) 100%
-      );
+     );
       }
     }
   
@@ -71,29 +92,53 @@
         & > h1 {
           font-size: 3.5rem;
           font-weight: 700;
+          @media screen and (max-width: $bp-medium){
+            font-size: 2.5rem;
+          }
+          @media screen and (max-width: $bp-middle){
+            font-size: 1.5rem;
+          }
+          @media screen and (max-width: $bp-verysmall){
+            font-size: 1rem;
+          }
+          
         }
         & > h2 {
-          font-size: 3rem;
+          font-size: 2.5rem;
           font-weight: 200;
+
+          @media screen and (max-width: $bp-medium){
+            font-size: 1.4rem;
+          }
+          @media screen and (max-width: $bp-middle){
+            font-size: 1.2rem;
+          }
+          @media screen and (max-width: $bp-verysmall){
+            font-size: 1rem;
+          }
+          @media screen and (max-width: $bp-tiny){
+            font-size: .8rem;
+          }
         }
         & > h3 { 
           color: var(--color-primary);
           font-size: 2rem;
           font-weight: 900;
+          @media screen and (max-width: $bp-medium){
+            font-size: 1.4rem;
+          }
+          @media screen and (max-width: $bp-middle){
+            font-size: 1.2rem;
+          }
+          @media screen and (max-width: $bp-verysmall){
+            font-size: 1rem;
+          }
+          @media screen and (max-width: $bp-tiny){
+            font-size: .8rem;
+          }
          }
       }
   
-      &_socialmedia {
-        display: flex;
-        align-items: center;
-        margin-top: 4rem;
-        
-        
-        &_img {
-          width: 10%;
-          z-index: 1;
-          margin-right: 4rem;
-        }
-      }
+     
     }
   }

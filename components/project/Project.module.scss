@@ -1,7 +1,12 @@
+@import './../../styles/variable';
+
 .project {
     width: 60%;
     margin: auto;
 
+    @media screen and (max-width: $bp-large){
+        width: 80%;
+    }
     &_heading {
         margin-top: 2rem;
         display: flex;
@@ -12,10 +17,19 @@
         & > h2 {
             font-size: 1.5rem;
             font-weight: 600;
+
+            @media screen and (max-width: $bp-middle){
+                font-size: 1rem;
+            }
         }
         & > p {
             font-size: 1rem;
             font-weight: 200;
+
+            @media screen and (max-width: $bp-middle){
+                font-size: .7rem;
+                text-align: center;
+            }
         }
     }
 }
@@ -31,8 +45,12 @@
 
         &_content {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr 1fr;
             grid-column-gap: 1rem;
+
+            @media screen and (max-width: $bp-verysmall){
+                grid-template-columns: 1fr;
+            }
         }
 
         &_description {
@@ -57,6 +75,10 @@
             &_stack {
                 list-style-type: none;
                 display: flex;
+
+                @media screen and (max-width: $bp-verysmall){
+                   margin-bottom: 1rem;
+                }
                 & > li {
                     font-weight: 700;
                     &:not(:last-child){
@@ -69,13 +91,19 @@
         &_image {
             width: 100%;
             box-shadow: .6rem .6rem 1rem rgba(0,0,0,.2);
-            
+
+            align-self: start;
         }
 
         &_action {
             display: flex;
             justify-content: flex-end;
             margin-top: 2rem;
+
+            @media screen and (max-width: $bp-verysmall){
+                justify-content: center;
+                align-items: center;
+             }
         }
     }
 }

@@ -4,7 +4,7 @@ import styles from './Header.module.scss';
 const Header = () => {
     return (
         <header className={styles.header}>
-            <h1></h1>
+            <h1>Alfarisilab</h1>
             <nav className={styles.header_menu}>
               <ul className={styles.header_menu_lists}>
                 <li className={styles.header_menu_lists_item}>

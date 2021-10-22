@@ -26,11 +26,11 @@ const Project = () => {
                         </div>
                         <figure className={styles.portfolio_item_image}>
                             <Image 
-                                className="img-shadow"
+                                className={styles.portfolio_item_image_item}
                                 src="/images/project/react-pos.png" 
-                                width="500" 
-                                height="290" 
-                                alt="React Point of sales" 
+                                width={500} 
+                                height="270" 
+                                alt="React Point of sales"
                             />
                         </figure>
                     </div>

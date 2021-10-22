@@ -1,3 +1,5 @@
+@import './../../styles/variable';
+
 .about {
     margin-top: 2rem;
     display: grid;
@@ -6,19 +8,34 @@
     width: 80%;
     margin: auto;
 
+    @media screen and (max-width: $bp-small){
+        grid-template-columns: 1fr;
+    }
+
     &_descriptions {
         z-index: 1;
         & > h2 { 
             font-size: 1.5rem; 
             font-weight: 600;
+            
+
+            @media screen and (max-width: $bp-middle){
+                font-size: 1rem;
+            }
         }
         &_text {
             line-height: 2.3rem;
             font-size: 1rem;
-            font-weight: 200;
 
             &:not(:last-child){
                 margin-bottom: 1rem;
+            }
+            @media screen and (max-width: $bp-verysmall){
+                line-height: 1.6rem;
+                font-size: .8rem;
+            }
+            @media screen and (max-width: $bp-tiny){
+                font-size: .6rem;
             }
         }
     }
@@ -28,6 +45,12 @@
         & > h2 { 
             font-size: 1.5rem; 
             font-weight: 600;
+            @media screen and (max-width: $bp-middle){
+                font-size: 1rem;
+            }
+            @media screen and (max-width: $bp-small){
+                margin-top: 2rem;
+            }
         }
     }
 
@@ -36,6 +59,10 @@
 .skills {
     margin-top: 3rem;
     list-style-type: none;
+
+    @media screen and (max-width: $bp-small){
+        margin-top: 1rem;
+    }
     &_item {
         position: relative;
 
