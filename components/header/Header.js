@@ -11,7 +11,7 @@ const Header = () => {
                   <Link href="/"><a>Home</a></Link>
                 </li>
                 <li className={styles.header_menu_lists_item}>
-                  <Link href="/"><a>Project</a></Link>
+                  <Link href="/project"><a>Project</a></Link>
                 </li>
               </ul>
             </nav>

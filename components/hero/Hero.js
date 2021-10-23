@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import SocialMedia from '../ui/socialmedia/SocialMedia';
 import styles from './Hero.module.scss'
+import MeImage from './../../public/images/me/me.PNG';
 
 const Hero = () => {
     return (
@@ -10,7 +11,7 @@ const Hero = () => {
                     <figure className={styles.hero_img_container}>
                         <Image
                             className={styles.hero_img_container_item} 
-                            src="/images/me/me.png"
+                            src={MeImage}
                             alt="Wahyu Alfarisi" 
                             width="550" 
                             height="620" 

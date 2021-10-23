@@ -19,7 +19,7 @@ const data = [
         isFeature: true,
         desc: 'This application is a mobile application that is used to carry out routine maintenance activities on the crew side',
         stack: ['React Native', 'Redux', 'React Navigation','Expo API','Qr Generator'],
-        imageUrl: '/images/project/crew-activity.png'
+        imageUrl: '/images/project/overview_screen.png'
     },
     {
         id: 3,
@@ -39,7 +39,7 @@ const data = [
         isFeature: true,
         desc: 'An application which it allows indihome customers to take advantage of the features available in the wifi Id Seamless application throughout wifi id network in Indonesia',
         stack: ['React JS', 'Redux','SCSS','Material UI'],
-        imageUrl: '/images/project/seamless.png'
+        imageUrl: '/images/project/seamless.jpeg'
     },
     {
         id: 5,
@@ -49,7 +49,7 @@ const data = [
         isFeature: false,
         desc: 'An application to manage your monthly budget. You can insert your income, and also your expenses, and it will calculate how much budget you have left for the month',
         stack: ['React JS', 'Redux','SCSS'],
-        imageUrl: '/images/project/seamless.png',
+        imageUrl: '/images/project/personal-budget.png',
         github: 'https://github.com/wahyualfarisi/personal-finance-tracker'
     },
     {
@@ -60,7 +60,7 @@ const data = [
         isFeature: false,
         desc: 'One System Application to manage maintenance and repairs and manage clients who have worked together while making it easier for clients to see the results of their work',
         stack: ['Express JS','Mysql','React', 'Redux','SCSS'],
-        imageUrl: '/images/project/onesystem.png'
+        imageUrl: '/images/project/cmms.png'
     },
     {
         id: 7,
@@ -70,7 +70,7 @@ const data = [
         isFeature: false,
         desc: 'An Application to make easier for technicians to do a daily checklist on a machine so that it can work optimally and make it easier for admins to see in real time the work of techiciants that have been done.',
         stack: ['Codeigniter','Mysql','Jquery','Grunt'],
-        imageUrl: '/images/project/engineer-checklist.png'
+        imageUrl: '/images/project/engineer_checklist.png'
     },
     {
         id: 8,
@@ -79,7 +79,7 @@ const data = [
         date: '2 March 2020',
         isFeature: false,
         stack: ['Laravel','Mysql','Jquery','Grunt','Firebase'],
-        imageUrl: '/images/project/medistra.png'
+        imageUrl: '/images/project/medical.png'
     },
     {
         id: 9,
@@ -98,6 +98,8 @@ const data = [
         date: '1 Sep 2019',
         isFeature: false,
         stack: ['React JS','Redux','Scss','API Movie'],
-        imageUrl: '/images/project/sahejo.png'
+        imageUrl: '/images/project/movie-app.png'
     }
 ];
+
+export default data;
