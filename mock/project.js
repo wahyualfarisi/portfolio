@@ -7,7 +7,7 @@ const data = [
         isFeature: true,
         desc: 'This project was created using react js, redux (state management) and sass for styling. This application displays a list of menus that are divided by category. You can also order directly by adding to the order, and confirm by entering your personal data and also your order data can be seen in the transaction list',
         github: 'https://github.com/wahyualfarisi/react-pos-app',
-        demo: 'https://react-pos-app-f239a.web.app/#/',
+        // demo: 'https://react-pos-app-f239a.web.app/#/',
         stack: ['React JS', 'Redux', 'SCSS'],
         imageUrl: '/images/project/react-pos.png'
     },
