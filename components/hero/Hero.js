@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import SocialMedia from '../ui/socialmedia/SocialMedia';
 import styles from './Hero.module.scss'
 import MeImage from './../../public/images/me/me.PNG';
 
@@ -24,8 +23,6 @@ const Hero = () => {
                         <h2>I{`'`}am Wahyu Alfarisi</h2>
                         <h3>Frontend Developer</h3>
                     </div>
-
-                    <SocialMedia />
                     </div>
                 </div>
             <div className={styles.hero_container_shadow_bottom}></div>

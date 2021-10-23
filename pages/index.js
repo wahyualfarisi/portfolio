@@ -11,7 +11,7 @@ export default function Home(props) {
     <Fragment>
         <Hero />
         <About />
-        <Project items={project} />
+        <Project items={project} isShowAll={true} />
     </Fragment>
   )
 }

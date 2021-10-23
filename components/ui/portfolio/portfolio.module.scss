@@ -8,11 +8,8 @@
         background-color: var(--color-grey-1);
         padding: 1rem;
         border-radius: 1rem;
-
-        &:not(:last-child){
-            margin-bottom: 1rem;
-        }
-
+        margin-bottom: 1rem;
+      
         &_content {
             display: grid;
             grid-template-columns: 1fr 1fr;

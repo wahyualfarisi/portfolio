@@ -98,7 +98,33 @@ const data = [
         date: '1 Sep 2019',
         isFeature: false,
         stack: ['React JS','Redux','Scss','API Movie'],
-        imageUrl: '/images/project/movie-app.png'
+        imageUrl: '/images/project/movie-app.png',
+        demo: 'https://wahyualfarisi.github.io/movie/#/',
+        github: 'https://github.com/wahyualfarisi/movie'
+    },
+    {
+        id: 11,
+        title: 'Pokemon',
+        type: 'Personal project',
+        desc: `This application displays a list of Pokemon, details of Pokemon, and My Pokemon. my pokemon can be added when catching pokemon`,
+        date: '19 Sep 2021',
+        isFeature: false,
+        stack: ['Laravel','Jquery','Scss'],
+        imageUrl: '/images/project/pokemon.png',
+        demo: 'https://pokemon.alfarisilab.com/#/list',
+        github: 'https://github.com/wahyualfarisi/PokemonList'
+    },
+    {
+        id: 12,
+        title: 'Burger Builder',
+        type: 'Personal project',
+        desc: `A simple app to make a delicious burger with custome ingredients, this application uses firebase to save orders`,
+        date: '3 Aug 2020',
+        isFeature: false,
+        stack: ['React JS','Redux','Scss'],
+        imageUrl: '/images/project/burger-builder.png',
+        demo: 'https://wahyualfarisi.github.io/Burger-builder/#/',
+        github: 'https://github.com/wahyualfarisi/Burger-builder'
     }
 ];
 

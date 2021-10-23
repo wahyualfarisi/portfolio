@@ -1,7 +1,26 @@
-const ProjectPage = () => {
+import Project from "../../components/project/Project";
+import { getAllProject } from "../../utils/project";
+import { useRouter } from 'next/router';
+
+const ProjectPage = ({ project }) => {
+    const params = useRouter();
+
+    console.log(params);
+
     return (
-        <div>Project Page</div>
+        <Project 
+            items={project} 
+        />
     )
+}
+
+
+export const getStaticProps = () => {
+    return {
+        props: {
+            project: getAllProject()
+        }
+    }
 }
 
 export default ProjectPage;

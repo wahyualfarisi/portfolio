@@ -1,0 +1,26 @@
+.footer {
+    background-color: var(--color-grey-1);
+}
+
+.footer_content {
+    margin-top: 6rem;
+    padding-bottom: 2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &_socialmedia {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    & > p {
+        margin-top: 1rem;
+        font-size: .7rem;
+        font-weight: 500;
+    }
+}

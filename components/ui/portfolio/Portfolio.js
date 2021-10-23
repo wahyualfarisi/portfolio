@@ -28,8 +28,8 @@ const PortfolioItem = ({ title, type, date, desc, github, demo, imageUrl, stack 
                 </figure>
             </div>
             <div className={styles.portfolio_item_action}>
-                {demo && <Button link={demo}>Preview</Button>} 
-                {github && <Button link={github}>Repo</Button> } 
+                {demo && <Button link={demo} newTab>Preview</Button>} 
+                {github && <Button link={github} newTab>Repo</Button> } 
             </div>
         </li>
     )

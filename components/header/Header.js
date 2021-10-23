@@ -1,10 +1,11 @@
 import Link from 'next/link';
+import Logo from '../ui/logo/Logo';
 import styles from './Header.module.scss';
 
 const Header = () => {
     return (
         <header className={styles.header}>
-            <h1>Alfarisilab</h1>
+            <Link href="/"><a><Logo /></a></Link> 
             <nav className={styles.header_menu}>
               <ul className={styles.header_menu_lists}>
                 <li className={styles.header_menu_lists_item}>
