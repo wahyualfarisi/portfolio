@@ -43,3 +43,7 @@ body {
   color: var(--color-text-dark);
   font-weight: 700;
 }
+a.activeLink {
+ border-bottom: 3px solid var(--color-primary);
+ padding-bottom: .4rem;
+}
