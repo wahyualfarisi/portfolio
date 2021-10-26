@@ -41,7 +41,9 @@ const About = () => {
                         <span> Jquery </span> - 
                         <span> React JS </span> - 
                         <span> Redux </span> - 
-                        <span> Next JS </span>
+                        <span> Next JS </span> -
+                        <span> Vue JS </span> -
+                        <span> Vuex </span>
                     </li>
                     <li className={styles.skills_item}>
                         <h3>BackEnd</h3>
