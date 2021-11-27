@@ -102,18 +102,18 @@ const data = [
         demo: 'https://wahyualfarisi.github.io/movie/#/',
         github: 'https://github.com/wahyualfarisi/movie'
     },
-    {
-        id: 11,
-        title: 'Pokemon',
-        type: 'Personal project',
-        desc: `This application displays a list of Pokemon, details of Pokemon, and My Pokemon. my pokemon can be added when catching pokemon`,
-        date: '19 Sep 2021',
-        isFeature: false,
-        stack: ['Laravel','Jquery','Scss'],
-        imageUrl: '/images/project/pokemon.png',
-        demo: 'https://pokemon.alfarisilab.com/#/list',
-        github: 'https://github.com/wahyualfarisi/PokemonList'
-    },
+//     {
+//         id: 11,
+//         title: 'Pokemon',
+//         type: 'Personal project',
+//         desc: `This application displays a list of Pokemon, details of Pokemon, and My Pokemon. my pokemon can be added when catching pokemon`,
+//         date: '19 Sep 2021',
+//         isFeature: false,
+//         stack: ['Laravel','Jquery','Scss'],
+//         imageUrl: '/images/project/pokemon.png',
+//         demo: 'https://pokemon.alfarisilab.com/#/list',
+//         github: 'https://github.com/wahyualfarisi/PokemonList'
+//     },
     {
         id: 12,
         title: 'Burger Builder',
